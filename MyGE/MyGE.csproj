@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A94CAD4A-75A5-4844-BAD8-3A865223C16C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyGE</RootNamespace>
+    <AssemblyName>MyGE</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MonoGamePlatform>Windows</MonoGamePlatform>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>MyGE.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Content\Effects\DefaultEffect.cs" />
+    <Compile Include="Content\Effects\FadeOut.cs" />
+    <Compile Include="Content\Effects\Wind.cs" />
+    <Compile Include="GUI\Button.cs" />
+    <Compile Include="GUI\Canvas.cs" />
+    <Compile Include="GUI\Frame.cs" />
+    <Compile Include="GUI\GUIBase.cs" />
+    <Compile Include="GUI\IComposite.cs" />
+    <Compile Include="GUI\Label.cs" />
+    <Compile Include="GUI\MltGUI.cs" />
+    <Compile Include="GUI\ThemeManager.cs" />
+    <Compile Include="GUI\ToggleButton.cs" />
+    <Compile Include="GUI\Widget.cs" />
+    <Compile Include="GUI\Window.cs" />
+    <Compile Include="Levels\LevelDatasReader.cs" />
+    <Compile Include="MainGame.cs" />
+    <Compile Include="MyTemplate\Animation.cs" />
+    <Compile Include="MyTemplate\AssetManager.cs" />
+    <Compile Include="MyTemplate\Camera2D.cs" />
+    <Compile Include="MyTemplate\ConfigDatasReader.cs" />
+    <Compile Include="MyTemplate\GameObject.cs" />
+    <Compile Include="MyTemplate\Hitbox.cs" />
+    <Compile Include="MyTemplate\IActor.cs" />
+    <Compile Include="MyTemplate\IBehaviors.cs" />
+    <Compile Include="MyTemplate\MainConfig.cs" />
+    <Compile Include="MyTemplate\MouseDrivenCamera.cs" />
+    <Compile Include="MyTemplate\MouseWrapper.cs" />
+    <Compile Include="MyTemplate\Player.cs" />
+    <Compile Include="MyTemplate\Primitive.cs" />
+    <Compile Include="MyTemplate\ProgressBar.cs" />
+    <Compile Include="MyTemplate\Scene.cs" />
+    <Compile Include="MyTemplate\ScenesManager.cs" />
+    <Compile Include="MyTemplate\SceneTransition.cs" />
+    <Compile Include="MyTemplate\ShaderEffect.cs" />
+    <Compile Include="MyTemplate\Sprite.cs" />
+    <Compile Include="MyTemplate\SpritesRenderer.cs" />
+    <Compile Include="MyTemplate\SpriteSheetDatasReader.cs" />
+    <Compile Include="MyTemplate\StaticCamera.cs" />
+    <Compile Include="MyTemplate\TiledManager.cs" />
+    <Compile Include="MyTemplate\TiledSharp\Group.cs" />
+    <Compile Include="MyTemplate\TiledSharp\ImageLayer.cs" />
+    <Compile Include="MyTemplate\TiledSharp\Layer.cs" />
+    <Compile Include="MyTemplate\TiledSharp\Map.cs" />
+    <Compile Include="MyTemplate\TiledSharp\ObjectGroup.cs" />
+    <Compile Include="MyTemplate\TiledSharp\TiledCore.cs" />
+    <Compile Include="MyTemplate\TiledSharp\Tileset.cs" />
+    <Compile Include="MyTemplate\Timer.cs" />
+    <Compile Include="MyTemplate\EaseFunc.cs" />
+    <Compile Include="MyTemplate\Tween.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scenes\FadeIN.cs" />
+    <Compile Include="Scenes\FadeOut.cs" />
+    <Compile Include="Scenes\LevelManager.cs" />
+    <Compile Include="Scenes\MenuBehaviors.cs" />
+    <Compile Include="Scenes\SceneGame.cs" />
+    <Compile Include="Scenes\SceneMenu.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+    <None Include="app.manifest" />
+    <None Include="Configs.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="GameObjects\Player.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="GUI\BuildTheme.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Levels\levels.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\Assets\" />
+    <Folder Include="Content\Fonts\" />
+    <Folder Include="Content\Sounds\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

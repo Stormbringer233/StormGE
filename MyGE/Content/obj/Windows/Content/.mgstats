@@ -1,0 +1,9 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/mickael.lethiec/source/MyGE/MyGE/Content/Assets/Axel_idle-sheet.png","C:/Users/mickael.lethiec/source/MyGE/MyGE/Content/bin/Windows/Content/Assets/Axel_idle-sheet.xnb","TextureProcessor","Texture2DContent",3670,39817,0.158
+"C:/Users/mickael.lethiec/source/MyGE/MyGE/Content/Assets/dalle.png","C:/Users/mickael.lethiec/source/MyGE/MyGE/Content/bin/Windows/Content/Assets/dalle.xnb","TextureProcessor","Texture2DContent",1080,65621,0.005
+"C:/Users/mickael.lethiec/source/MyGE/MyGE/Content/Assets/menuExemple.jpg","C:/Users/mickael.lethiec/source/MyGE/MyGE/Content/bin/Windows/Content/Assets/menuExemple.xnb","TextureProcessor","Texture2DContent",79138,802981,0.036
+"C:/Users/mickael.lethiec/source/MyGE/MyGE/Content/Assets/tree.png","C:/Users/mickael.lethiec/source/MyGE/MyGE/Content/bin/Windows/Content/Assets/tree.xnb","TextureProcessor","Texture2DContent",24039,217445,0.009
+"C:/Users/mickael.lethiec/source/MyGE/MyGE/Content/DefaultFont.spritefont","C:/Users/mickael.lethiec/source/MyGE/MyGE/Content/bin/Windows/Content/DefaultFont.xnb","FontDescriptionProcessor","SpriteFontContent",2008,21521,0.171
+"C:/Users/mickael.lethiec/source/MyGE/MyGE/Content/Effects/DefaultEffect.fx","C:/Users/mickael.lethiec/source/MyGE/MyGE/Content/bin/Windows/Content/Effects/DefaultEffect.xnb","EffectProcessor","CompiledEffectContent",658,726,0.246
+"C:/Users/mickael.lethiec/source/MyGE/MyGE/Content/Effects/FadeOut.fx","C:/Users/mickael.lethiec/source/MyGE/MyGE/Content/bin/Windows/Content/Effects/FadeOut.xnb","EffectProcessor","CompiledEffectContent",1111,975,0.117
+"C:/Users/mickael.lethiec/source/MyGE/MyGE/Content/Effects/wind.fx","C:/Users/mickael.lethiec/source/MyGE/MyGE/Content/bin/Windows/Content/Effects/wind.xnb","EffectProcessor","CompiledEffectContent",1395,1857,0.132

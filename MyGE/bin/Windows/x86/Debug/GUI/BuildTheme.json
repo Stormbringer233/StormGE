@@ -1,0 +1,141 @@
+{
+  "Name": "BuildTheme",
+  "MainFont": "default",
+  "BigTitleFont": "default",
+  "MediumTitleFont": "default",
+  "SmallTitleFont": "default",
+  "Widgets": {
+    "SheetName": "Btn_options",
+    "Spacing": 0,
+    "Padding": 0,
+    "Labels": {
+      "WidgetType": "Label",
+      "NormalColor": [ 255, 255, 255, 255 ],
+      "FocusColor": [ 97, 255, 218, 255 ],
+      "ClickedColor": [ 79, 79, 130, 255 ],
+      "FreezeColor": [ 128, 128, 128, 255 ]
+    },
+    "ButtonsList": [
+      {
+        "WidgetType": "Button",
+        "Name": "Default",
+        "Type": "rectangular",
+        "TotalAnimations": 4,
+        "Anchor": "TopLeft",
+        "Xinit": 0,
+        "Yinit": 0,
+        "Width": 256,
+        "Height": 96,
+        "Bound": {
+          "Width": 250,
+          "Height": 90
+        }
+      },
+      {
+        "WidgetType": "Button",
+        "Name": "mineReco",
+        "Type": "rectangular",
+        "TotalAnimations": 4,
+        "Anchor": "TopLeft",
+        "Xinit": 0,
+        "Yinit": 0,
+        "Width": 96,
+        "Height": 32,
+        "Bound": {
+          "Width": 96,
+          "Height": 32
+        }
+      },
+      {
+        "WidgetType": "Button",
+        "Name": "armyReco",
+        "Type": "rectangular",
+        "TotalAnimations": 4,
+        "Anchor": "TopLeft",
+        "Xinit": 0,
+        "Yinit": 32,
+        "Width": 96,
+        "Height": 32,
+        "Bound": {
+          "Width": 96,
+          "Height": 32
+        }
+      },
+      {
+        "WidgetType": "Button",
+        "Name": "play game",
+        "Type": "rectangular",
+        "TotalAnimations": 4,
+        "Anchor": "TopLeft",
+        "Xinit": 0,
+        "Yinit": 96,
+        "Width": 96,
+        "Height": 32,
+        "Bound": {
+          "Width": 96,
+          "Height": 32
+        }
+      },
+      {
+        "WidgetType": "Button",
+        "Name": "groundSupport",
+        "Type": "rectangular",
+        "TotalAnimations": 4,
+        "Anchor": "TopLeft",
+        "Xinit": 0,
+        "Yinit": 64,
+        "Width": 96,
+        "Height": 32,
+        "Bound": {
+          "Width": 96,
+          "Height": 32
+        }
+      },
+      {
+        "WidgetType": "ToggleButton",
+        "Name": "OnOff",
+        "Type": "rectangular",
+        "TotalAnimations": 6,
+        "Anchor": "TopLeft",
+        "Xinit": 0,
+        "Yinit": 228,
+        "Width": 80,
+        "Height": 37,
+        "Bound": {
+          "Width": 66,
+          "Height": 25
+        }
+      }
+    ]
+  },
+  "Windows": {
+    "SheetName": "testWin",
+    "MainFrameSpaceX": 0,
+    "MainFrameSpaceY": 10,
+    "WindowsList": [
+      {
+        "Name": "Option",
+        "TopBar": {
+          "Image": {
+            "Xinit": 1,
+            "Yinit": 365,
+            "Width": 530,
+            "Height": 35
+          },
+          "Bound": {
+            "Xinit": 0,
+            "Yinit": 0,
+            "width": 530,
+            "Height": 35
+          }
+        },
+        "MainFrame": {
+          "Xinit": 1,
+          "Yinit": 401,
+          "Width": 530,
+          "Height": 342
+        }
+      }
+    ]
+  }
+}

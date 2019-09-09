@@ -1,0 +1,25 @@
+{
+  "GameName":"My Game Engine (MyGE)",
+  "Version": "0.00",
+  "BuildDate": "20/07/2019",
+  "WindowWidth": 800,
+  "WindowHeight" :  600,
+  "Scale": 1,
+  "ShowDebug": true,
+  "GameObjectsFolder": "GameObjects/",
+  "GUIFolder": "GUI/",
+  "LevelsFolder":  "Levels/",
+  "Fonts": {
+    "DefaultFont": "DefaultFont",
+    "MainFont": "MainFont",
+    "BigFont": "BigFont",
+    "MediumFont": "MediumFont",
+    "SmallFont": "SmallFont"
+  },
+  "AssetsFolders": {
+    "Graphics": "Assets/",
+    "Sounds": "sounds/",
+    "Fonts": "Fonts/",
+    "Effects": "Effects/"
+  }
+}

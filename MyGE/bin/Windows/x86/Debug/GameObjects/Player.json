@@ -1,0 +1,26 @@
+{
+  "SpriteDatas": {
+    "SpriteSheet": "tank-Sheet",
+    "orientation": "RIGHT",
+    "VelocityX": 0,
+    "VelocityY": 0,
+    "FrameWidth": 32,
+    "FrameHeight": 32,
+    "TextureColor": [ 255, 255, 255, 255 ],
+    "AnimDatas": [
+      {
+        "Name": "RUN",
+        "Mode": "FORWARD",
+        "Duration": 0.2,
+        "Delay": 0,
+        "Loop": -1,
+        "OriginX": 16,
+        "OriginY": 16,
+        "Xinit": 0,
+        "Yinit": 0,
+        "Frames": 2,
+        "HitBox": [ 0, 0, 32, 32 ]
+      }
+    ]
+    }
+  }
