@@ -1,4 +1,4 @@
-﻿using GUI;
+﻿//using GUI;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using MyTemplate;
@@ -55,7 +55,7 @@ namespace MyGE
             AssetManager.Initialize(this);
 
             // Initialize GUI -- ATTENTION : Before scene initialization
-            MltGUI.Initialize("BuildTheme");
+            //MltGUI.Initialize("BuildTheme");
 
             // Initialize gameState
             ScenesManager.Add("menu", new SceneMenu(this));

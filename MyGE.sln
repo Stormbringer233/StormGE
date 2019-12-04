@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGE", "MyGE\MyGE.csproj", "{A94CAD4A-75A5-4844-BAD8-3A865223C16C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A94CAD4A-75A5-4844-BAD8-3A865223C16C}.Debug|x86.ActiveCfg = Debug|x86
+		{A94CAD4A-75A5-4844-BAD8-3A865223C16C}.Debug|x86.Build.0 = Debug|x86
+		{A94CAD4A-75A5-4844-BAD8-3A865223C16C}.Release|x86.ActiveCfg = Release|x86
+		{A94CAD4A-75A5-4844-BAD8-3A865223C16C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {565B92BC-0B22-46D5-ABB1-2ADAE23FE87A}
+	EndGlobalSection
+EndGlobal
